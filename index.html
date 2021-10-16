@@ -1,0 +1,44 @@
+<!DOCTYPE>
+<html>
+<head><title>Home</title></head>
+<body style="background-color: turquoise;">
+<form action="" method="get">
+
+<label for="radio1">Чоловіку</label>
+<label>Praporets</label>
+<input type="checkbox" name="prapor" checked
+<input style="background-color: blue;" type="number"   name="numder" value="" /><br/>
+<input type="text" name="dollar" value="доллар">
+<input type="password" name="parol" value="parol">
+<input type="email" name="pochta" value="pochta">
+<input type="checkbox" name="check" value="check"
+<input type="radio" name="radio1" value="radio1">
+<input type="file" name="fail" value="fail">
+<input type="date" name="data" value="data">
+<input type="color" name="color" value="color">
+
+<p>Де живеш</p><br>
+<select>
+
+<option>Київ</option>
+<option>Одеса</option>
+<option>Рівне</option>
+<option>Чернівці</option>
+
+</select> <p>Де ти живеш приязнавайся!</p><br>
+<input placeholder="login" type="text" name="Login" value=""><br/>
+<input placeholder="password" required type="text" name="password" value=""><br/>
+<input type="submit" name="submit" value="Log In"><br/>
+
+</form>
+
+
+
+
+</body>
+<script type="text/javascript">
+  document.querySelector('input[type="color"]').addEventListener('change', () => {
+    document.querySelector('input').style.color = document.querySelector('input[type="color"]').value;
+  });
+</script>
+</html>
